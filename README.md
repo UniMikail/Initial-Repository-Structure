@@ -10,6 +10,7 @@ My project will be using an Ubuntu server on AWS EC2 hosting, which will be a ba
 - DNS configuration with SSL
 
 
+
 ── Repository Structure/
     ├── Docs/
     │   ├── Website/
