@@ -36,3 +36,10 @@ My project will be using an Ubuntu server on AWS EC2 hosting, which will be a ba
     │   ├── server setup.md
     │   └── website documents.md
     └── Readme.md
+
+
+
+
+## Live Links
+- **Website:** http://yourdomain.com
+- **Video Demo:** [Link will be added]
