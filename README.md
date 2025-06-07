@@ -1,45 +1,49 @@
-ICT171 Assignment 2: Baking Recipes Blog
-BY Mikail Cherogony - 35539095
-06/06/2025
 
+# ICT171 Assignment 2: Baking Blog on AWS EC2
+**Student Name**: [Mikail Cherogony]  
+**Student ID**: [35539095]  
+**Links**
+- 🌐 [Live Website](http://yourdomain.com)  
+- 📹 [Video Walkthrough](https://youtu.be/example)  
 
-Project Overview 
-My project will be using an Ubuntu server on AWS EC2 hosting, which will be a baking recipe blog with:
-- HTML & CSS frontend development
-- Linux scripting
-- DNS configuration with SSL
+## 🔍 Project Overview
+Ubuntu 22.04 server on AWS EC2 hosting a baking recipe blog with
+- Custom HTML/CSS frontend
+- Automated backup scripts
+- DNS + SSL configuration
 
+## 📚 Documentation
+| Section                          | Link                          |
+|----------------------------------|-------------------------------|
+| AWS EC2 Setup                    | [server-setup.md](docs/server-setup.md) |
+| Website Development              | [website.md](docs/website.md) |
+| Automation Scripts               | [scripting.md](docs/scripting.md) |
+| Troubleshooting                  | [troubleshooting.md](docs/troubleshooting.md) |
 
+## 🛠️ Technical Stack
+- **Infrastructure**: AWS EC2 (t2.micro), Ubuntu 22.04 LTS
+- **Web Server**: Apache2
+- **DNS**: [Your Domain Registrar]
+- **SSL**: Let's Encrypt via Certbot
 
-── Repository Structure/
+## 🗓️ Development Timeline
+| Week | Focus Area               | Commit Highlights |
+|------|--------------------------|-------------------|
+| 1    | AWS Setup                | [Initial commit](link) |
+| 2    | Apache Configuration     | [Virtual hosts](link) |
+| 3    | Website Development      | [Recipe cards](link) |
+| 4    | Scripting & Finalization | [Backup script](link) |
 
-    ├── Docs/
-    
-    │   ├── Website/
-    
-    │   │   ├── Images/
-    
-    │   │   │   └── placeholder.md
-    
-    │   │   ├── css/
-    
-    │   │   │   └── placeholder.md
-    
-    │   │   └── recipes/
-    
-    │   │       └── placeholder.md
-    
-    │   ├── screenshots/
-    │   │   └── placeholder.md
-    │   ├── Scripting.md
-    │   ├── recipesmanager.sh
-    │   ├── server setup.md
-    │   └── website documents.md
-    └── Readme.md
+## ❓ FAQ (Assignment Requirements)
+### Can I use a free HTML template?
+> Yes, with attribution. This project uses **100% custom HTML/CSS**.
 
+### How is scripting implemented?
+> Through Bash automation:  
+> - Daily backups (`recipe-backup.sh`)  
+> - Log analysis (`/scripts/`)  
 
-
-
+[Full FAQ →](docs/faq.md)
 ## Live Links
 - **Website:** http://yourdomain.com
 - **Video Demo:** [Link will be added]
