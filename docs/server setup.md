@@ -1,14 +1,31 @@
-## AWS EC2 Configuration
-**Instance Details**:
-- AMI: Ubuntu 22.04 LTS
-- Type: t2.micro
-- Public IP: 54.179.182.56
-- Security Group Rules: [See ScreenShot2](docs/screenshots/Screenshot2.png)
+# Server Configuration Documentation
+**Last Updated**: [YYYY-MM-DD]
 
-**Key Commands**:
+## 1. AWS EC2 Setup
+### Instance Details
+- **AMI**: Ubuntu 22.04 LTS  
+- **Security Group Rules**:  
+  ```plaintext
+  SSH (22)    : My IP only
+  HTTP (80)   : 0.0.0.0/0
+  HTTPS (443) : 0.0.0.0/0
+  ```
+
+### SSH Access
 ```bash
 shh -i MyFirstKey.pem ubuntu@54.179.182.56
-sudo apt update && sudo apt upgrade -y
-sudo apt install -y git tree ufw
+```
 
+## 2. Apache Installation
+```bash
+sudo apt install apache2 -y
+sudo ufw allow 'Apache Full'
+```
 
+## 3. DNS Configuration
+- **Domain**: yourdomain.com  
+- **A Record**: 12.34.56.78  
+
+## 📸 Screenshots
+- [EC2 Dashboard](screenshots/ec2-setup/1-dashboard.png)  
+- [Apache Default Page](screenshots/apache-config/2-default-page.png)  
