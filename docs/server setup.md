@@ -27,6 +27,7 @@ sudo ufw allow 'Apache Full'
 - 
 - # Check DNS propagation
 ##Apache Virtual Host Setup
+```bash
 <VirtualHost *:80>
     ServerName detailsrecipes.shop
     ServerAlias www.detailsrecipes.shop
@@ -34,10 +35,12 @@ sudo ufw allow 'Apache Full'
     ErrorLog ${APACHE_LOG_DIR}/detailsrecipes.shop-error.log
     CustomLog ${APACHE_LOG_DIR}/detailsrecipes.shop-access.log combined
 </VirtualHost>
-
+```
 # Local hosts file test 
+```bash
 echo "13.215.248.232 detailsrecipes.shop" | sudo tee -a /etc/hosts
 ## result: 13.215.248.232 detailsrecipes.shop
+```
 
 ## 📸 Screenshots
 - [EC2 Dashboard](screenshots/ec2-setup/1-dashboard.png)  
