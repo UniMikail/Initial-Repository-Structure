@@ -23,7 +23,7 @@ Ubuntu 22.04 server on AWS EC2 hosting a baking recipe blog with
 ## 🛠️ Technical Stack
 - **Infrastructure**: AWS EC2 (t2.micro), Ubuntu 22.04 LTS
 - **Web Server**: Apache2
-- **DNS**: [Your Domain Registrar]
+- **DNS**: [Namecheap]
 - **SSL**: Let's Encrypt via Certbot
 
 ## 🗓️ Development Timeline
