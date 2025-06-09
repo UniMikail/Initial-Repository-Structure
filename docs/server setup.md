@@ -23,8 +23,8 @@ sudo ufw allow 'Apache Full'
 ```
 
 ## 3. DNS Configuration
-- **Domain**: yourdomain.com  
-- **A Record**: 12.34.56.78  
+- **Domain**: [yourdomain.com  ](https://www.detailsrecipes.shop/)
+- **A Record**: 13.215.248.232 
 
 ## 📸 Screenshots
 - [EC2 Dashboard](screenshots/ec2-setup/1-dashboard.png)  
