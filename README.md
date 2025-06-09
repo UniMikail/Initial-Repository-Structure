@@ -3,7 +3,7 @@
 **Student Name**: [Mikail Cherogony]  
 **Student ID**: [35539095]  
 **Links**
-- 🌐 [Live Website]((http://www.detailsrecipes.shop/))  
+- 🌐 [Live Website](http://www.detailsrecipes.shop/)
 - 📹 [Video Walkthrough](https://youtu.be/example)  
 
 ## 🔍 Project Overview
