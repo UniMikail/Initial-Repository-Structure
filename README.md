@@ -27,7 +27,3 @@ Ubuntu 22.04 server on AWS EC2 hosting a baking recipe blog with
 
 
 
-[Full FAQ →](docs/faq.md)
-## Live Links
-- **Website:** [http://yourdomain.com](http://www.detailsrecipes.shop/)
-- **Video Demo:** [Link will be added]
