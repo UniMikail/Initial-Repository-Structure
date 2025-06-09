@@ -4,7 +4,7 @@
 **Student ID**: [35539095]  
 **Links**
 - 🌐 [My Website](http://www.detailsrecipes.shop/)
-- 📹 [Video Walkthrough](https://youtu.be/example)  
+- 📹 [Video Walkthrough](xxxxxxxxxxxxxxxxxxxxxxxxx)  
 
 ## Project 
 Ubuntu 22.04 server on AWS EC2 hosting a baking recipe blog with
