@@ -42,6 +42,3 @@ echo "13.215.248.232 detailsrecipes.shop" | sudo tee -a /etc/hosts
 ## result: 13.215.248.232 detailsrecipes.shop
 ```
 
-## 📸 Screenshots
-- [EC2 Dashboard](screenshots/ec2-setup/1-dashboard.png)  
-- [Apache Default Page](screenshots/apache-config/2-default-page.png)  
