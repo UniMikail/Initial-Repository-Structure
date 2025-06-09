@@ -26,7 +26,7 @@ Ubuntu 22.04 server on AWS EC2 hosting a baking recipe blog with
 - **DNS**: [Namecheap]
 - **SSL**: Let's Encrypt via Certbot
 
-## 🗓️ Development Timeline
+## 🗓️My Development Timeline
 | Week | Focus Area               | Commit Highlights |
 |------|--------------------------|-------------------|
 | 1    | AWS Setup                | [Initial commit](link) |
@@ -34,14 +34,6 @@ Ubuntu 22.04 server on AWS EC2 hosting a baking recipe blog with
 | 3    | Website Development      | [Recipe cards](link) |
 | 4    | Scripting & Finalization | [Backup script](link) |
 
-## ❓ FAQ (Assignment Requirements)
-### Can I use a free HTML template?
-> Yes, with attribution. This project uses **100% custom HTML/CSS**.
-
-### How is scripting implemented?
-> Through Bash automation:  
-> - Daily backups (`recipe-backup.sh`)  
-> - Log analysis (`/scripts/`)  
 
 [Full FAQ →](docs/faq.md)
 ## Live Links
