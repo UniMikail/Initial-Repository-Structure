@@ -18,7 +18,7 @@ Ubuntu 22.04 server on AWS EC2 hosting a baking recipe blog with
 | AWS EC2 Setup                    | [server-setup.md](docs/server-setup.md) |
 | Website Development              | [website.md](docs/website.md) |
 | Automation Scripts               | [scripting.md](docs/scripting.md) |
-| Troubleshooting                  | [troubleshooting.md](docs/troubleshooting.md) |
+
 
 ## 🛠️ Technical Stack
 - **Infrastructure**: AWS EC2 (t2.micro), Ubuntu 22.04 LTS
